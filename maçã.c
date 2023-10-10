@@ -14,15 +14,13 @@ int main()
     printf("Digite a quantidade que deseja comprar: ");
     scanf("%d", &quantidademaca);
 
-    if (quantidademaca >= 6)
-    {
-        total = 1.30 * quantidademaca;
-    }
-
     if (quantidademaca >= 12)
-
     {
         total = 1.00 * quantidademaca;
+    }
+    else
+    {
+        total = 1.30 * quantidademaca;
     }
 
     printf("\n\n");
